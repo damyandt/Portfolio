@@ -2,10 +2,8 @@
 
 * {
     font-family: "Poppins", sans-serif;
-
     scrollbar-color: #8e8e8e #fff;
     scrollbar-width: thin;
-
 }
 
 html {
@@ -48,4 +46,3 @@ p {
         width: 100%;
     }
 }
-
