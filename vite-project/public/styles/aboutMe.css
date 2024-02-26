@@ -1,0 +1,63 @@
+.aboutContainer {
+    padding: 10em 13em;
+    display: flex;
+    flex-direction: row;
+    gap: 6em;
+}
+
+.macbookPhoto img {
+    max-width: 29em;
+    border-radius: 2em;
+}
+
+.infoMe h4 {
+    color: rgb(43, 108, 229);
+    font-size: 1em;
+}
+
+.infoMe {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    justify-content: center;
+}
+
+.infoMe h3 {
+    font-size: 1.5em;
+    color: rgb(40, 40, 40);
+}
+
+.infoMe p {
+    font-size: 0.9em;
+    color: rgb(98, 95, 92);
+}
+
+@media (max-width: 900px) {
+    .aboutContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infoMe {
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .macbookPhoto img {
+        width: 20em;
+    }
+
+    .aboutContainer {
+        padding: 5em 3em;
+    }
+}
+
+@media (min-width: 1600px) {
+    .aboutContainer {
+        margin: 0 12em;
+    }
+}

@@ -1,0 +1,104 @@
+.contacts {
+    padding: 10em;
+}
+
+.contacts h2 {
+    color: rgb(43, 108, 229);
+    font-size: 1.1em;
+}
+
+.contacts h3 {
+    font-size: 1.5em;
+    color: rgb(40, 40, 40);
+}
+
+.contacts svg {
+    width: 1.5em;
+    fill: rgb(238, 205, 36);
+}
+
+.contactsText {
+    display: flex;
+    gap: 1em;
+}
+
+.cardText a:first-child {
+    color: #000;
+}
+
+.contactsIcons {
+    padding-top: 5em;
+    display: flex;
+    gap: 4em;
+}
+
+.miniCard,
+.miniCard2 {
+    display: flex;
+    gap: 1em;
+}
+
+.cardText {
+    display: flex;
+    flex-direction: column;
+}
+
+.diffColor {
+    color: #4d4e52b1;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bold:hover {
+    font-weight: 800;
+}
+
+.miniCard svg,
+.miniCard2 svg {
+    fill: rgb(43, 108, 229);
+}
+
+.miniCard2 svg {
+    width: 2.5em;
+}
+
+@media (max-width: 450px) {
+    .contacts {
+        padding: 5em 3em;
+    }
+
+    .contactsText {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2em;
+    }
+
+    .contactsIcons {
+        padding-top: 2em;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+    }
+
+    .miniCard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .miniCard2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardText {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1600px) {
+    .contacts {
+        margin: 0 12em;
+    }
+}
